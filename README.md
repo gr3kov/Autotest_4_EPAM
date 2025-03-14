@@ -12,7 +12,15 @@ Follow the next steps of instruction
 
 a) git clone https://github.com/gr3kov/Autotest_4_EPAM.git
 b) cd on that directory repository
-c)  install Nodejs and NPM 
+c) open terminal with original enter point directory of project. Thease directory must some like 
+"C:\Autotest_4_EPAM" on Windows or "/home/Autotest_4_EPAM" on Linux
+d) run wdio command with terminal command:" npx wdio run wdio.conf.js"
+
+If you dont have some IDE or Nodejs/ NPM installed 
+you must doing some next steps of instructions:
+c) lets done some COPY original file with name of wdio.conf.js and package.json to another directory
+
+d)  install Nodejs and NPM if your environment doesnt have it.
 
 Installation Guide for Node.js and NPM  
 
@@ -29,7 +37,10 @@ npm -v
 
 ###
 
-If the commands are not recognized, proceed with the installation.2. Install Node.js on Windows
+If the commands are not recognized, proceed with the installation.
+
+
+2. Install Node.js on Windows
 
 Download the LTS version from Node.js official website.
 
@@ -165,29 +176,24 @@ cd Autotest_4_EPAM
 
 Initialize a new Node.js project:
 
-
-
+###
 bash
 
 npm init -y
 
-3. Install WebdriverIO
+!!!!. Install WebdriverIO
 
 Run the following command to install WebdriverIO using its setup wizard:
 
 
-
+###
 bash
 
 npm init wdio@latest
 
 The CLI will prompt you with configuration options:
 
-
-
 Test runner: @wdio/mocha-framework 
-
-
 
 Assertions library: @wdio/expect-webdriverio
 
